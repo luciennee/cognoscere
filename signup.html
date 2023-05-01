@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Log In</title>
+    <title>Sign Up</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,25 +26,37 @@
       <a href="#" class="nav-bar-content">Vocabulary</a>
       <a href="#" class="nav-bar-content">Translation</a>
       <a href="about.html" class="nav-bar-content">About</a>
-      <a href="signup.html" class="nav-bar-content-2">Sign up</a>
-      <a href="login.html" class="nav-bar-content-2" id="active">Log In</a>
+      <a href="#" class="nav-bar-content-2" id="active">Sign up</a>
+      <a href="login.html" class="nav-bar-content-2">Log In</a>
     </div>
     <div class="container-login">
       <div class="form-box">
-        <form class="form" action="includes/login.inc.php" method="post">
-          <span class="acc-title">Welcome back.</span>
+        <form class="form" action="includes/signup.inc.php" method="post">
+          <span class="acc-title">Welcome to Cognoscere.</span>
           <span class="subtitle"
-            >Log in with just your email and password.</span
+            >Let's get started with an email, password, and something to call
+            you by.</span
           >
           <div class="form-container">
-            <input type="email" class="input" placeholder="Email" />
-            <input type="password" class="input" placeholder="Password" />
+            <input
+              type="text"
+              name="name"
+              class="input"
+              placeholder="First Name"
+            />
+            <input type="text" name="email" class="input" placeholder="Email" />
+            <input
+              type="password"
+              name="pwd"
+              class="input"
+              placeholder="Password"
+            />
           </div>
-          <button type="submit" name="submit">Log In</button>
+          <button type="submit" name="submit">Sign up</button>
         </form>
         <div class="form-section">
           <p class="footer">
-            Don't have an account yet? <a href="signup.html">Sign Up</a>
+            Already have an account? <a href="login.html">Log In</a>
           </p>
         </div>
       </div>

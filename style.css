@@ -14,6 +14,16 @@ html {
   z-index: 1;
 }
 
+.container-login {
+  position: absolute;  
+  display: flex;
+  height: 100%; width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  z-index: 1;
+}
+
 .button {
   margin: 10px;
 }
@@ -42,7 +52,6 @@ html {
   padding: 0;
   z-index: 2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text: uppercase;
 }
 
 .nav-bar-content:hover {
@@ -164,8 +173,9 @@ html {
   height: 40px;
   width: 100%;
   border-bottom: 1px solid #eee;
-  font-size: .9rem;
+  font-size: .8rem;
   padding: 8px 15px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .input-search {
@@ -184,8 +194,11 @@ html {
   font-size: .85rem;
   background-color: #e6e6e6;
   box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  font-family: 'Raleway', sans-serif;
 }
-
+.footer {
+  font-family: 'Raleway', sans-serif;
+}
 .form-section a {
   font-weight: bold;
   color: #0066ff;
