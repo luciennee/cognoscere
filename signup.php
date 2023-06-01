@@ -63,4 +63,3 @@
     <script src="index.js"></script>
   </body>
 </html>
-<?php echo $_GET["email"]?>

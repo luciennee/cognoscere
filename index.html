@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Cognoscere</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&family=Rubik:wght@400;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&family=Rubik:wght@400;800;900&display=swap"
+    rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-  <div class="container">
-    <p class="text">welcome to cognoscere.</p>
 
-    <a href="home.html">
-      <input class="button" type="button" value="continue" href="home.html">
-    </a>
-  </div>
-
-
-  <script src="script.js"></script>
-</body>
+  <body class="home-page">
+    <div id="navBar">
+      <div class="title">Cognoscere.</div>
+      <a href="#" class="nav-bar-content" id="active">Home</a>
+      <a href="search.html" class="nav-bar-content">Search</a>
+      <a href="#" class="nav-bar-content">Vocabulary</a>
+      <a href="#" class="nav-bar-content">Translation</a>
+      <a href="about.html" class="nav-bar-content">About</a>
+      <a href="signup.php" class="nav-bar-content-2">Sign up</a>
+      <a href="login.html" class="nav-bar-content-2">Log In</a>
+    </div>
+    <div class="container-quotes">
+      <div class="front-page-content" id="parent"></div>
+        <div class="front-page-sub-content" id="subParent"></div>
+        <div id="dateTime" class="front-page-time"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 
 </html>

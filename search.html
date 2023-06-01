@@ -16,9 +16,9 @@
 </head>
 
 <body class="other-page">
-  <div class="nav-bar">
+  <div id="navBar">
     <div class="title">Cognoscere.</div>
-    <a href="home.html" class="nav-bar-content">Home</a>
+    <a href="index.html" class="nav-bar-content">Home</a>
     <a href="search.html" class="nav-bar-content" id="active">Search</a>
     <a href="vocabulary.html" class="nav-bar-content">Vocabulary</a>
     <a href="translation.html" class="nav-bar-content">Translation</a>
@@ -29,9 +29,15 @@
   <div class="container">
     <h1 class="tracking-in-expand">Search</h1>
     <div class="animate__animated animate__fadeInUp">Input some Latin, get some English.</div>
-    <input class="input-search" placeholder="ex. de facto">
+    <form id="search-form" method="post">
+      <input class="input-search" id="name" placeholder="ex. de facto" name="name">
+      <input type="button" id="submitFormData" onclick="submitFormData();" value="Submit" />
+    </form>
+    <div id="results">
+
+    </div>
   </div>
-  <script src="index.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
