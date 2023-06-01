@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html  class="everything" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +30,7 @@
     </div>
     <div class="container-login">
       <div class="form-box">
-        <form class="form" action="includes/signup.inc.php" method="post">
+        <form class="form" action="signup.php" method="get">
           <span class="acc-title">Welcome to Cognoscere.</span>
           <span class="subtitle"
             >Let's get started with an email, password, and something to call
@@ -52,7 +51,7 @@
               placeholder="Password"
             />
           </div>
-          <button type="submit" name="submit">Sign up</button>
+          <input type="submit">Sign up</input>
         </form>
         <div class="form-section">
           <p class="footer">
@@ -64,3 +63,4 @@
     <script src="index.js"></script>
   </body>
 </html>
+<?php echo $_GET["email"]?>

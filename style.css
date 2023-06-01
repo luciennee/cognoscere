@@ -4,6 +4,11 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+.everythi {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
 .container {
   position: absolute;  
   display: flex;
@@ -14,6 +19,20 @@ html {
   z-index: 1;
 }
 
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
 .container-login {
   position: absolute;  
   display: flex;

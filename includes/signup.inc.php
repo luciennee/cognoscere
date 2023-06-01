@@ -1,8 +1,12 @@
 <?php
- 
+ $var = "it worked.";
 if (isset($_POST["submit"])) {
-    echo "It works";
-}
+    echo $var;
+};
 else {
     header("location: ../signup.html")
-}
+};
+
+?>
+
+<h1>success<h1>
