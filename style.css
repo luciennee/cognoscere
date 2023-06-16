@@ -21,6 +21,17 @@ html {
     z-index: 1;
   }
 
+.info-scene {
+  background-color: white;
+  position: absolute;  
+    display: flex;
+    height: 100%; width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
   .container-quotes {
     position: absolute;  
     display: flex;
@@ -35,7 +46,7 @@ html {
     padding-left: 5vh;
     font-weight: 600;
     color: #1E3848;
-    font-style: italic;
+    font-style: italic;n
   }
 
   .front-page-sub-content {
@@ -48,7 +59,7 @@ html {
   }
 
 .front-page-time {
-    font-size: 3vh;
+    font-size: 4vh;
       padding-left: 10vh;
       color: #427B9E;
       font-weight: 400;
@@ -307,7 +318,6 @@ background-size: cover;
     border: 0;
     outline: 0;
     height: 40px;
-    width: 20%;
     border-bottom: 1px solid #808080;
     font-size: .9rem;
     padding: 8px 15px;
@@ -335,7 +345,7 @@ background-size: cover;
   }
   
   /*Button*/
-  .form button {
+  .form-button {
     background-color: rgb(150, 10, 0);
     color: #fff;
     border: 0;
@@ -346,7 +356,26 @@ background-size: cover;
     cursor: pointer;
     transition: background-color .3s ease;
   }
-  
-  .form button:hover {
-    background-color: rgb(96, 7, 1);
+
+.search-button {
+    background-color:#274754;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  margin: 30px;
+  margin-left: 70px;
   }
+
+.search-button:hover {
+    background-color: #4D8EA8;
+  }
+
+  .form button:hover {
+    background-color: #274754;
+  }
+

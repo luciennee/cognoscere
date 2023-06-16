@@ -19,26 +19,32 @@
   <div id="navBar">
     <div class="title">Cognoscere.</div>
     <a href="index.html" class="nav-bar-content">Home</a>
-    <a href="search.html" class="nav-bar-content" id="active">Search</a>
+    <a href="search.html" class="nav-bar-content">Search</a>
     <a href="vocabulary.html" class="nav-bar-content">Vocabulary</a>
-    <a href="translation.html" class="nav-bar-content">Translation</a>
+    <a href="translation.html" class="nav-bar-content" id="active">Translation</a>
     <a href="about.html" class="nav-bar-content">About</a>
     <a href="signup.html" class="nav-bar-content-2">Sign up</a>
     <a href="login.html" class="nav-bar-content-2">Log In</a>
   </div>
   <div class="container">
-    <h1 class="tracking-in-expand">Search</h1>
-    <div class="animate__animated animate__fadeInUp">Input some Latin, get some English.</div>
-    <form id="myForm">
-      <input type="text" name="inputbox" id="inputbox" class="input-search" placeholder="ex. de facto" />
-      <br>
-      <input type="submit" class="search-button" />
-    </form>
-    <h2 id="output-text"></h2>
-
+    <div class="info-scene">
+      <h1 class="translation-text">external resources</h1>
+      <span>
+        <div>de bello gallico [Julius Caesar]:</div>
+        <a href="http://classics.mit.edu/Caesar/gallic.html">english</a>
+        </br>
+        <a
+          href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0002%3Abook%3D1%3Achapter%3D2%3Asection%3D1">latin</a>
+      </span>
+      <span>
+        <div>The Aeneid [Virgil]:</div>
+        <a href="http://classics.mit.edu/Virgil/aeneid.html">english</a>
+        </br>
+        <a href="https://www.gutenberg.org/files/227/227-h/227-h.htm">latin</a>
+      </span>
+    </div>
   </div>
-  </div>
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
